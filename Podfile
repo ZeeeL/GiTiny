@@ -40,6 +40,11 @@ def etc_pods
     pod 'AcknowList'
 end
 
+def ui_test_pods
+    pod 'EarlGrey'
+    pod 'OHHTTPStubs/Swift'
+end
+
 target 'GiTiny' do
     shared_pods
 
@@ -50,4 +55,10 @@ end
 
 target 'GiTinyUITests' do
     shared_pods
+end
+
+target 'EarlGreyTests' do
+    use_frameworks!
+    inherit! :search_paths
+    ui_test_pods
 end

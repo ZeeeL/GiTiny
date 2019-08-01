@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550B8D2122EB323E0099EC7D /* EarlGreyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B8D2022EB323E0099EC7D /* EarlGreyTests.swift */; };
+		550FCCB622EF2F7D008AB4E8 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FCCB522EF2F7D008AB4E8 /* EarlGrey.swift */; };
+		550FCCB922EF41DF008AB4E8 /* EarlGrey+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FCCB822EF41DF008AB4E8 /* EarlGrey+Convenience.swift */; };
+		550FCCBB22EF467A008AB4E8 /* OHHTTPStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FCCBA22EF467A008AB4E8 /* OHHTTPStubs.swift */; };
+		550FCCBE22EF4846008AB4E8 /* SearchUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = 550FCCBD22EF4846008AB4E8 /* SearchUsers.json */; };
+		550FCCC022EF4873008AB4E8 /* SearchRepositories.json in Resources */ = {isa = PBXBuildFile; fileRef = 550FCCBF22EF4873008AB4E8 /* SearchRepositories.json */; };
 		57B56613BC94079B6EDEC16C /* Pods_GiTiny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB62889BBF40B8ACCDE7C82 /* Pods_GiTiny.framework */; };
 		652754B12267755F001724D1 /* Pods-GiTiny-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 652754B02267755F001724D1 /* Pods-GiTiny-acknowledgements.plist */; };
 		652754B22267755F001724D1 /* Pods-GiTiny-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 652754B02267755F001724D1 /* Pods-GiTiny-acknowledgements.plist */; };
@@ -249,9 +255,17 @@
 		65C43FD5226716A100347C34 /* TrendingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C43FD2226716A100347C34 /* TrendingServiceTests.swift */; };
 		8915A43CDB888F1EAD4408F6 /* Pods_GiTinyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6D3794C8C4085D2BF0A512 /* Pods_GiTinyTests.framework */; };
 		941B2A5E78D200249AE4849B /* Pods_GiTinyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED481DC02EBDDBF5FD3A01D8 /* Pods_GiTinyUITests.framework */; };
+		DCB00C6B43ED6D8C64D0A639 /* Pods_EarlGreyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33A737CC4E814EDBF435C1E /* Pods_EarlGreyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		550B8D2322EB323E0099EC7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 658847B52266BCD4000D882A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 658847BC2266BCD4000D882A;
+			remoteInfo = GiTiny;
+		};
 		658847D22266BCD6000D882A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 658847B52266BCD4000D882A /* Project object */;
@@ -262,9 +276,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CE79C273C21A9A4B8733538 /* Pods-EarlGreyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyTests.release.xcconfig"; path = "Target Support Files/Pods-EarlGreyTests/Pods-EarlGreyTests.release.xcconfig"; sourceTree = "<group>"; };
 		2A6D3794C8C4085D2BF0A512 /* Pods_GiTinyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiTinyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AFD962AC3D7A4E87DA9C7D9 /* Pods-GiTinyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiTinyTests.debug.xcconfig"; path = "Target Support Files/Pods-GiTinyTests/Pods-GiTinyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D4E913EBF2648A47F21C356 /* Pods-EarlGreyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyTests.debug.xcconfig"; path = "Target Support Files/Pods-EarlGreyTests/Pods-EarlGreyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4DB62889BBF40B8ACCDE7C82 /* Pods_GiTiny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiTiny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550B8D1E22EB323E0099EC7D /* EarlGreyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGreyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550B8D2022EB323E0099EC7D /* EarlGreyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGreyTests.swift; sourceTree = "<group>"; };
+		550B8D2222EB323E0099EC7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550FCCB522EF2F7D008AB4E8 /* EarlGrey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		550FCCB822EF41DF008AB4E8 /* EarlGrey+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EarlGrey+Convenience.swift"; sourceTree = "<group>"; };
+		550FCCBA22EF467A008AB4E8 /* OHHTTPStubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OHHTTPStubs.swift; sourceTree = "<group>"; };
+		550FCCBD22EF4846008AB4E8 /* SearchUsers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SearchUsers.json; sourceTree = "<group>"; };
+		550FCCBF22EF4873008AB4E8 /* SearchRepositories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SearchRepositories.json; sourceTree = "<group>"; };
 		652754B02267755F001724D1 /* Pods-GiTiny-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Pods-GiTiny-acknowledgements.plist"; path = "Pods/Target Support Files/Pods-GiTiny/Pods-GiTiny-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
 		658847BD2266BCD4000D882A /* GiTiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiTiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		658847CC2266BCD6000D882A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -402,10 +426,19 @@
 		908E7C56F5D614C2D882B1D4 /* Pods-GiTinyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiTinyUITests.release.xcconfig"; path = "Target Support Files/Pods-GiTinyUITests/Pods-GiTinyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A3313AE53F6E14E10F6541C5 /* Pods-GiTiny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiTiny.release.xcconfig"; path = "Target Support Files/Pods-GiTiny/Pods-GiTiny.release.xcconfig"; sourceTree = "<group>"; };
 		B790E1C3E22D6F1B0383574E /* Pods-GiTiny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiTiny.debug.xcconfig"; path = "Target Support Files/Pods-GiTiny/Pods-GiTiny.debug.xcconfig"; sourceTree = "<group>"; };
+		D33A737CC4E814EDBF435C1E /* Pods_EarlGreyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarlGreyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED481DC02EBDDBF5FD3A01D8 /* Pods_GiTinyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiTinyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		550B8D1B22EB323E0099EC7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB00C6B43ED6D8C64D0A639 /* Pods_EarlGreyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		658847BA2266BCD4000D882A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -433,6 +466,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		550B8D1F22EB323E0099EC7D /* EarlGreyTests */ = {
+			isa = PBXGroup;
+			children = (
+				550FCCBC22EF4807008AB4E8 /* Stubs */,
+				550FCCB722EF41B5008AB4E8 /* ThirdParty */,
+				550FCCB422EF2F5B008AB4E8 /* Common */,
+				550B8D2022EB323E0099EC7D /* EarlGreyTests.swift */,
+				550B8D2222EB323E0099EC7D /* Info.plist */,
+			);
+			path = EarlGreyTests;
+			sourceTree = "<group>";
+		};
+		550FCCB422EF2F5B008AB4E8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				550FCCB522EF2F7D008AB4E8 /* EarlGrey.swift */,
+				550FCCBA22EF467A008AB4E8 /* OHHTTPStubs.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		550FCCB722EF41B5008AB4E8 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				550FCCB822EF41DF008AB4E8 /* EarlGrey+Convenience.swift */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		550FCCBC22EF4807008AB4E8 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				550FCCBD22EF4846008AB4E8 /* SearchUsers.json */,
+				550FCCBF22EF4873008AB4E8 /* SearchRepositories.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
 		6550EF8322C1F80F00B75205 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,6 +537,7 @@
 				658847BF2266BCD4000D882A /* GiTiny */,
 				658847D42266BCD6000D882A /* GiTinyTests */,
 				658847E52266BE70000D882A /* GiTinyUITests */,
+				550B8D1F22EB323E0099EC7D /* EarlGreyTests */,
 				658847BE2266BCD4000D882A /* Products */,
 				8B662C8D8511EFB9CC5EE137 /* Pods */,
 				E49A031CCE0DD2619E5C4E00 /* Frameworks */,
@@ -478,6 +550,7 @@
 				658847BD2266BCD4000D882A /* GiTiny.app */,
 				658847D12266BCD6000D882A /* GiTinyTests.xctest */,
 				658847E42266BE70000D882A /* GiTinyUITests.app */,
+				550B8D1E22EB323E0099EC7D /* EarlGreyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1141,6 +1214,8 @@
 				716E7AEB1D88EBC8C4A364D2 /* Pods-GiTinyTests.release.xcconfig */,
 				6E4F5CCAF8CA410B3BCB3535 /* Pods-GiTinyUITests.debug.xcconfig */,
 				908E7C56F5D614C2D882B1D4 /* Pods-GiTinyUITests.release.xcconfig */,
+				2D4E913EBF2648A47F21C356 /* Pods-EarlGreyTests.debug.xcconfig */,
+				0CE79C273C21A9A4B8733538 /* Pods-EarlGreyTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1151,6 +1226,7 @@
 				4DB62889BBF40B8ACCDE7C82 /* Pods_GiTiny.framework */,
 				2A6D3794C8C4085D2BF0A512 /* Pods_GiTinyTests.framework */,
 				ED481DC02EBDDBF5FD3A01D8 /* Pods_GiTinyUITests.framework */,
+				D33A737CC4E814EDBF435C1E /* Pods_EarlGreyTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1158,6 +1234,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		550B8D1D22EB323E0099EC7D /* EarlGreyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550B8D2722EB323E0099EC7D /* Build configuration list for PBXNativeTarget "EarlGreyTests" */;
+			buildPhases = (
+				8A980ECCA727F88F3C03B45C /* [CP] Check Pods Manifest.lock */,
+				550B8D1A22EB323E0099EC7D /* Sources */,
+				550B8D1B22EB323E0099EC7D /* Frameworks */,
+				550B8D1C22EB323E0099EC7D /* Resources */,
+				3D1CFCBF95F20AAC8EAEF223 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550B8D2422EB323E0099EC7D /* PBXTargetDependency */,
+			);
+			name = EarlGreyTests;
+			productName = EarlGreyTests;
+			productReference = 550B8D1E22EB323E0099EC7D /* EarlGreyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		658847BC2266BCD4000D882A /* GiTiny */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 658847DA2266BCD6000D882A /* Build configuration list for PBXNativeTarget "GiTiny" */;
@@ -1227,6 +1323,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "k-lpmg";
 				TargetAttributes = {
+					550B8D1D22EB323E0099EC7D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 658847BC2266BCD4000D882A;
+					};
 					658847BC2266BCD4000D882A = {
 						CreatedOnToolsVersion = 10.2;
 						SystemCapabilities = {
@@ -1261,11 +1361,21 @@
 				658847BC2266BCD4000D882A /* GiTiny */,
 				658847E32266BE70000D882A /* GiTinyUITests */,
 				658847D02266BCD6000D882A /* GiTinyTests */,
+				550B8D1D22EB323E0099EC7D /* EarlGreyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		550B8D1C22EB323E0099EC7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550FCCBE22EF4846008AB4E8 /* SearchUsers.json in Resources */,
+				550FCCC022EF4873008AB4E8 /* SearchRepositories.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		658847BB2266BCD4000D882A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1306,50 +1416,32 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GiTiny/Pods-GiTiny-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AcknowList/AcknowList.framework",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AwaitToast/AwaitToast.framework",
-				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
-				"${BUILT_PRODUCTS_DIR}/FluidHighlighter/FluidHighlighter.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/PanModal/PanModal.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmWrapper/RealmWrapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
-				"${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GiTiny/Pods-GiTiny-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AcknowList.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AwaitToast.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FluidHighlighter.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PanModal.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmWrapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGesture.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GiTiny/Pods-GiTiny-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiTiny/Pods-GiTiny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D1CFCBF95F20AAC8EAEF223 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarlGreyTests/Pods-EarlGreyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarlGreyTests/Pods-EarlGreyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EarlGreyTests/Pods-EarlGreyTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		60C104231F69850AFB51245C /* [CP] Check Pods Manifest.lock */ = {
@@ -1410,6 +1502,28 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" b4bb1adcf44397151841e03785d5d14511ef7841 44c69bc83821a4ed443ee822e073952bacac169ddd2bc763d01f514c04b2f9a7\n";
 		};
+		8A980ECCA727F88F3C03B45C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EarlGreyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BB63A75F1C2D94FBB5488009 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1438,46 +1552,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GiTinyUITests/Pods-GiTinyUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AcknowList/AcknowList.framework",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AwaitToast/AwaitToast.framework",
-				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
-				"${BUILT_PRODUCTS_DIR}/FluidHighlighter/FluidHighlighter.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
-				"${BUILT_PRODUCTS_DIR}/PanModal/PanModal.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmWrapper/RealmWrapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
-				"${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GiTinyUITests/Pods-GiTinyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AcknowList.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AwaitToast.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FluidHighlighter.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PanModal.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmWrapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGesture.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GiTinyUITests/Pods-GiTinyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1509,6 +1588,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		550B8D1A22EB323E0099EC7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550FCCBB22EF467A008AB4E8 /* OHHTTPStubs.swift in Sources */,
+				550FCCB622EF2F7D008AB4E8 /* EarlGrey.swift in Sources */,
+				550FCCB922EF41DF008AB4E8 /* EarlGrey+Convenience.swift in Sources */,
+				550B8D2122EB323E0099EC7D /* EarlGreyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		658847B92266BCD4000D882A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1762,6 +1852,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		550B8D2422EB323E0099EC7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 658847BC2266BCD4000D882A /* GiTiny */;
+			targetProxy = 550B8D2322EB323E0099EC7D /* PBXContainerItemProxy */;
+		};
 		658847D32266BCD6000D882A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 658847BC2266BCD4000D882A /* GiTiny */;
@@ -1790,6 +1885,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		550B8D2522EB323E0099EC7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4E913EBF2648A47F21C356 /* Pods-EarlGreyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EarlGreyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanglpmg.EarlGreyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiTiny.app/GiTiny";
+			};
+			name = Debug;
+		};
+		550B8D2622EB323E0099EC7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE79C273C21A9A4B8733538 /* Pods-EarlGreyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EarlGreyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanglpmg.EarlGreyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiTiny.app/GiTiny";
+			};
+			name = Release;
+		};
 		658847D82266BCD6000D882A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2039,6 +2176,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		550B8D2722EB323E0099EC7D /* Build configuration list for PBXNativeTarget "EarlGreyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550B8D2522EB323E0099EC7D /* Debug */,
+				550B8D2622EB323E0099EC7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		658847B82266BCD4000D882A /* Build configuration list for PBXProject "GiTiny" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

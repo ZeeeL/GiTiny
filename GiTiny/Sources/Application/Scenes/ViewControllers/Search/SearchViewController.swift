@@ -26,6 +26,7 @@ final class SearchViewController: BaseViewController {
         searchBar.backgroundColor = .clear
         searchBar.backgroundImage = UIImage()
         searchBar.isTranslucent = true
+        searchBar.accessibilityIdentifier = "search_bar"
         return searchBar
     }()
     private let searchText: BehaviorRelay<String?>
